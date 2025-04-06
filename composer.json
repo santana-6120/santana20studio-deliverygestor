@@ -1,0 +1,33 @@
+{
+    "name": "santana20studio/deliverygestor",
+    "version": "1.0.0",
+    "description": "Projeto STS ADM Delivery Gestor",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Santana20Studio",
+            "email": "20dbaweb.designer@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core"
+        }
+    },
+    "require": {
+        "php": "^8.3",
+        "vendor/package": "^1.3",
+        "vendor/package2": "1.*",
+        "vendor/package3": "^2.0.3",
+        "another-vendor/package": "1.*",
+        "phpmailer/phpmailer": "^6.9.3"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Santana-6120/santana20studio-deliverygestor.git"
+        }
+    ]
+}
